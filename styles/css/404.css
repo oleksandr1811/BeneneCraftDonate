@@ -1,0 +1,32 @@
+*,
+*:after,
+*:before {
+    box-sizing: border-box;
+}
+
+body {
+    background: url("/assets/bg.png") center no-repeat fixed;
+	background-size: cover;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+}
+
+.oops {
+    font-family: 'MuseoSansCyrl-900', sans-serif;
+    margin-top: 250px;
+    font-size: 60px;
+    color: white;
+    text-align: center;
+}
+
+.forward {
+    font-family: 'MuseoSansCyrl-700', sans-serif;
+    margin-top: 30px;
+    font-size: 40px;
+    color: white;
+    text-align: center;
+}
+

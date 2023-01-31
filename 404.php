@@ -1,0 +1,4 @@
+<?php header("refresh:3;url=/"); ?> <!doctype html><html lang="ru"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"><meta http-equiv="X-UA-Compatible" content="ie=edge"><link rel="stylesheet" href="/styles/css/404.css"><link type="text/css" rel="stylesheet" href="/styles/css/fonts.css"/><title>Упс, мы потерялись</title></head><style> body {
+    background: url("/assets/bg.png") center no-repeat fixed;
+	background-size: cover;
+} </style><body><div class="container"><p class="oops">Упс, мы потерялись</p><p class="forward">Ну давай я тебя перекину на главную страницу</p></div></body></html>

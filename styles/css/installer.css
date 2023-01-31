@@ -1,0 +1,111 @@
+*,
+*:after,
+*:before {
+    box-sizing: border-box;
+}
+
+p {
+    margin: 0;
+}
+
+body {
+    background: url("/styles/img/installer-bg.jpg") center no-repeat fixed;
+    background-size: cover;
+    font-family: 'MuseoSansCyrl-100', sans-serif;
+    font-size: 18px;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+}
+
+.installer {
+    background: #262635;
+    width: 1000px;
+    height: 700px;
+    border-radius: 50px;
+    margin: 44px auto 0;
+    box-shadow: 0 0 10px rgba(73,73,92,0.5);
+}
+
+.installer-container {
+    width: 450px;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.installer-title {
+    font-family: 'MuseoSansCyrl-900', sans-serif;
+    margin-top: 90px;
+    margin-bottom: 35px;
+    font-size: 40px;
+    color: white;
+}
+
+.dataForm {
+    margin-bottom: 20px;
+}
+
+.dataForm input {
+    font-size: 18px;
+    background-color: #343448;
+    border-radius: 15px;
+    border: 1px solid #7b7b82;
+    width: 450px;
+    height: 60px;
+    outline: none;
+    padding: 25px;
+    color: white;
+}
+
+.form__button {
+    display: inline-block;
+    vertical-align: top;
+    padding: 20px 38px;
+    cursor: pointer;
+    font-family: 'MuseoSansCyrl-500', sans-serif;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    border: #7b7b82 2px solid;
+    background-color: #343448;
+    transition: background-color .1s linear;
+}
+
+.form__button:hover {
+    background-color: #2f2f3e;
+    color: #e0e0e0;
+}
+
+.mega__area {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.mega__area.button {
+    margin-bottom: 30px;
+}
+
+.rules {
+    text-decoration: none;
+    border-bottom: 1px #c5c5c5 dashed;
+    font-family: 'MuseoSansCyrl-300', sans-serif;
+    color: #c5c5c5;
+    font-size: 20px;
+}
+
+.rules:hover {
+    color: #b6b6b7;
+    border-bottom: 1px #b6b6b7 dashed;
+}
+
+.rules.instruction {
+    margin-top: 8px;
+}
+
+

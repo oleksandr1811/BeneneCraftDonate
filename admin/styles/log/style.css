@@ -1,0 +1,21 @@
+body > .container {
+	padding: 20px;
+	position: relative;
+}
+
+.login-box {
+	width: 342px;
+	position: absolute;
+	left: calc(50% - 171px);
+	top: calc(50% - 142px);
+}
+
+.login-box #success-auth-form {
+	display: none;
+	width: 100%;
+	height: 280px;
+	line-height: 280px;
+	font-size: 120px;
+	text-align: center;
+	color: #8BC34A;
+}
